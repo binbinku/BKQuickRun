@@ -11,14 +11,26 @@
 </p>
 
 <p align="center">
-  <a href="#项目介绍">项目介绍</a> · <a href="#主要功能">主要功能</a> · <a href="#开发">开发</a>
+  <a href="#项目介绍">项目介绍</a> · <a href="#界面预览">界面预览</a> · <a href="#主要功能">主要功能</a> · <a href="#开发">开发</a>
 </p>
 
 ## 项目介绍
 
 BKQuickRun 是一款原生 macOS 菜单栏工具，适合管理本地服务、构建命令和日常自动化脚本。添加现有的 `.sh` 文件后，可以给它起一个好记的名字、归入分类，再为同一个脚本保存多套启动参数。
 
-比如，把 `start-api.sh` 收进「本地开发」，为它添加「默认端口」和「调试模式」两个变体。在菜单栏点击对应变体的 ▶ 启动，点名称查看实时输出。
+比如，把 `start-api.sh` 收进「本地开发」，为它添加「调试模式」和「预发布」两个变体。在菜单栏点击对应变体的 ▶ 启动，点名称查看实时输出。
+
+## 界面预览
+
+<p align="center">
+  <img src="docs/images/launcher.jpg" width="456" alt="BKQuickRun 的菜单栏启动面板，展示脚本分类、启动变体和运行状态">
+</p>
+<p align="center"><em>按分类组织脚本，一个脚本可以有多个启动变体。</em></p>
+
+<p align="center">
+  <img src="docs/images/live-output.jpg" width="960" alt="BKQuickRun 的运行输出面板，展示应用日志、访问日志标签和输入框">
+</p>
+<p align="center"><em>展开运行输出，切换日志来源或向后台脚本发送一行输入。</em></p>
 
 ## 主要功能
 
