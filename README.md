@@ -23,14 +23,9 @@ BKQuickRun 是一款原生 macOS 菜单栏工具，适合管理本地服务、�
 ## 界面预览
 
 <p align="center">
-  <img src="docs/images/launcher.jpg" width="456" alt="BKQuickRun 的菜单栏启动面板，展示脚本分类、启动变体和运行状态">
+  <img src="docs/images/desktop-preview.png" width="960" alt="macOS 桌面上的 BKQuickRun 半透明面板，左侧显示脚本分类和启动变体，右侧显示实时日志">
 </p>
-<p align="center"><em>按分类组织脚本，一个脚本可以有多个启动变体。</em></p>
-
-<p align="center">
-  <img src="docs/images/live-output.jpg" width="960" alt="BKQuickRun 的运行输出面板，展示应用日志、访问日志标签和输入框">
-</p>
-<p align="center"><em>展开运行输出，切换日志来源或向后台脚本发送一行输入。</em></p>
+<p align="center"><em>在菜单栏展开 BKQuickRun，同时查看脚本变体和实时输出。</em></p>
 
 ## 主要功能
 
