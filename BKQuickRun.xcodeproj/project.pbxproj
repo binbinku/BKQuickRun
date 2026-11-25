@@ -1,0 +1,197 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* BKQuickRunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* BKQuickRunApp.swift */; };
+		A10000000000000000000002 /* ScriptLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* ScriptLibrary.swift */; };
+		A10000000000000000000003 /* TerminalLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* TerminalLauncher.swift */; };
+		A10000000000000000000004 /* PanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* PanelView.swift */; };
+		A10000000000000000000005 /* Editors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* Editors.swift */; };
+		A10000000000000000000006 /* ScriptRuns.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018 /* ScriptRuns.swift */; };
+		A10000000000000000000007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000010 /* BKQuickRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKQuickRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000011 /* BKQuickRunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BKQuickRunApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000012 /* ScriptLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptLibrary.swift; sourceTree = "<group>"; };
+		A10000000000000000000013 /* TerminalLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalLauncher.swift; sourceTree = "<group>"; };
+		A10000000000000000000014 /* PanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelView.swift; sourceTree = "<group>"; };
+		A10000000000000000000015 /* Editors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editors.swift; sourceTree = "<group>"; };
+		A10000000000000000000016 /* BKQuickRun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BKQuickRun.entitlements; sourceTree = "<group>"; };
+		A10000000000000000000017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000018 /* ScriptRuns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptRuns.swift; sourceTree = "<group>"; };
+		A10000000000000000000019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000020 = {
+			isa = PBXGroup;
+			children = (A10000000000000000000021 /* BKQuickRun */, A10000000000000000000022 /* Products */);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000021 /* BKQuickRun */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000011 /* BKQuickRunApp.swift */,
+				A10000000000000000000012 /* ScriptLibrary.swift */,
+				A10000000000000000000013 /* TerminalLauncher.swift */,
+				A10000000000000000000018 /* ScriptRuns.swift */,
+				A10000000000000000000014 /* PanelView.swift */,
+				A10000000000000000000015 /* Editors.swift */,
+				A10000000000000000000019 /* Assets.xcassets */,
+				A10000000000000000000016 /* BKQuickRun.entitlements */,
+				A10000000000000000000017 /* Info.plist */,
+			);
+			path = BKQuickRun;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000022 /* Products */ = {
+			isa = PBXGroup;
+			children = (A10000000000000000000010 /* BKQuickRun.app */);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000030 /* BKQuickRun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000061 /* Target configurations */;
+			buildPhases = (
+				A10000000000000000000040 /* Sources */,
+				A10000000000000000000041 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = BKQuickRun;
+			productName = BKQuickRun;
+			productReference = A10000000000000000000010 /* BKQuickRun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = { LastUpgradeCheck = 2660; };
+			buildConfigurationList = A10000000000000000000060 /* Project configurations */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = ("zh-Hans", Base);
+			mainGroup = A10000000000000000000020;
+			productRefGroup = A10000000000000000000022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (A10000000000000000000030 /* BKQuickRun */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (A10000000000000000000007 /* Assets.xcassets in Resources */);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* BKQuickRunApp.swift in Sources */,
+				A10000000000000000000002 /* ScriptLibrary.swift in Sources */,
+				A10000000000000000000003 /* TerminalLauncher.swift in Sources */,
+				A10000000000000000000006 /* ScriptRuns.swift in Sources */,
+				A10000000000000000000004 /* PanelView.swift in Sources */,
+				A10000000000000000000005 /* Editors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10000000000000000000051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A10000000000000000000052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BKQuickRun/BKQuickRun.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 28;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BKQuickRun/Info.plist;
+				MARKETING_VERSION = 1.2.25;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiwenbin.BKQuickRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BKQuickRun/BKQuickRun.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 28;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BKQuickRun/Info.plist;
+				MARKETING_VERSION = 1.2.25;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiwenbin.BKQuickRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000060 /* Project configurations */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (A10000000000000000000050 /* Debug */, A10000000000000000000051 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000061 /* Target configurations */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (A10000000000000000000052 /* Debug */, A10000000000000000000053 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000031 /* Project object */;
+}
